@@ -30,4 +30,5 @@ Credit
 -------
 
 Inspiration for this vimfile comes mainly from www.vimcasts.org
+
 and theme is provided by http://dengmao.wordpress.com/2007/01/22/vim-color-scheme-wombat/

@@ -18,7 +18,7 @@ Install
   
   ln -s <path_to_repo>/vimrc/colors ~/.vim/colors
 
-3. link my the vimrc file to your home dir as follows:
+4. link my the vimrc file to your home dir as follows:
   
   ln -s <path_to_repo>/vimrc ~/.vimrc
 

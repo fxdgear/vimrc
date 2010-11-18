@@ -28,8 +28,6 @@ set listchars=tab:▸\ ,eol:¬
 set list
 
 set scrolloff=3
-set nowrap
-set lbr 
 
 " MAKE IT EASY TO UPDATE/RELOAD_vimrc
 map ,s :source ~/.vimrc<Enter>

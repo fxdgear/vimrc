@@ -72,9 +72,8 @@ map <D-9> 9gt
 map <D-0> :tablast<CR>
 
 
-filetype indent on
-filetype on
-filetype plugin on
+filetype plugin indent on
+
 
 autocmd FileType python set ft=python.django " For SnipMate
 autocmd FileType html set ft=htmldjango.html " For SnipMate

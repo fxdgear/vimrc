@@ -25,6 +25,16 @@ Install
 
 Then call it good
 
+Plugins
+---------
+
+* snipMate: http://www.vim.org/scripts/script.php?script_id=2540
+    - snipMate_for_django: https://github.com/robhudson/snipmate_for_django
+Project: http://www.vim.org/scripts/script.php?script_id=69
+minibufexpl: http://www.vim.org/scripts/script.php?script_id=159
+taglist: http://vim-taglist.sourceforge.net/
+pyflakes: http://www.vim.org/scripts/script.php?script_id=2441
+surround: http://www.vim.org/scripts/script.php?script_id=1697
 
 Credit
 -------

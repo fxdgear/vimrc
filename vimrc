@@ -1,3 +1,4 @@
+set encoding=utf-8
 set nocompatible
 set smartindent
 set shiftwidth=4

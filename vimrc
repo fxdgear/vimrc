@@ -80,6 +80,7 @@ syntax on
 colorscheme wombat
 if has("gui_running")
     set guioptions=egmrt
+    set guifont=Inconsolata:h11
 endif
 set wm=4
 
@@ -121,7 +122,7 @@ autocmd BufWritePre *.py,*.js :call <SID>StripTrailingWhitespaces()
 
 
 map <D-S-]> gt
-map <D-S-[> gT
+map <D-S-[> pt
 map <D-1> 1gt
 map <D-2> 2gt
 map <D-3> 3gt

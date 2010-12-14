@@ -12,7 +12,7 @@ set number
 retab
 
 " Wrapping and tabs.
-set tw=78 ts=4 sw=4 sta et sts=4 ai
+set ts=4 sw=4 sta et sts=4 ai
 
 " Wrap at 72 chars for comments.
 set formatoptions=cq textwidth=72 foldignore= wildignore+=*.py[co]

@@ -19,6 +19,7 @@ set formatoptions=cq textwidth=72 foldignore= wildignore+=*.py[co]
 
 " `gf` jumps to the filename under the cursor.  Point at an import statement
 " and jump to it!
+
 python << EOF
 import os
 import sys
@@ -151,4 +152,7 @@ let g:surround_{char2nr("f")} = "{% for\1 \r..*\r &\1%}\r{% endfor %}"          
 " This beauty remembers where you were the last time you edited the file, and returns to the same position.
 au BufReadPost * if line("'\"") > 0|if line("'\"") <= line("$")|exe("norm '\"")|else|exe "norm $"|endif|endif
 
+augroup mkd
+ autocmd BufRead *.mkd  set ai formatoptions=tcroqn2 comments=n:>
+augroup END
 

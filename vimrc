@@ -79,11 +79,6 @@ EOF
 
 
 syntax on
-colorscheme wombat
-if has("gui_running")
-    set guioptions=egmrt
-    set guifont=Inconsolata:h11
-endif
 set wm=4
 
 " Shortcut to rapidly toggle `set list`
@@ -155,4 +150,5 @@ au BufReadPost * if line("'\"") > 0|if line("'\"") <= line("$")|exe("norm '\"")|
 augroup mkd
  autocmd BufRead *.mkd  set ai formatoptions=tcroqn2 comments=n:>
 augroup END
+
 
